@@ -1,11 +1,8 @@
-import { Button, Drawer, Menu, MenuItem, Link  } from "@mui/material";
-import React from "react";
-
 function NavBar() {
-    const [open, setOpen] = React.useState(false)
-    const toggleDrawer = (newOpen: boolean) => () => {
-        setOpen(newOpen);
-      };
+    // const [open, setOpen] = React.useState(false)
+    // const toggleDrawer = (newOpen: boolean) => () => {
+    //     setOpen(newOpen);
+    //   };
 
     return (
         <>
